@@ -1,0 +1,75 @@
+10+20
+30
+console.log("안녕하세요")
+VM115:1 안녕하세요
+undefined
+alert("안녕하세요.")
+undefined
+a = 10
+10
+alert(a)
+undefined
+confirm("종료하시겠습니까?")
+true
+prompt("당신의 이름은?")
+'박민재'
+prompt("종료하시겠습니까?(예/아니오)", "예")
+'예'
+name = "박민재"
+'박민재'
+console.log(nmae + "님 환영합니다.")
+VM710:1 Uncaught ReferenceError: nmae is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM710:1
+console.log(name + "님 환영합니다.")
+VM822:1 박민재님 환영합니다.
+undefined
+document.write("제 이름은 " + name + 입니다.")
+VM1035:1 Uncaught SyntaxError: Invalid or unexpected token
+document.write("제 이름은 " + name + "입니다.")
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1394:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1394:1
+let age = 22
+undefined
+console.log(name + "님 나이는 " + age + "세 입니다.")
+VM1614:1 박민재님 나이는 22세 입니다.
+undefined
+console.log(`${name}님 나이는 ${age}세 입니다.`)
+VM1776:1 박민재님 나이는 22세 입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 202095035,
+    name : "박민재"
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 202095035, name: '박민재'}
+student.name
+'박민재'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "박민재",
+    [id] : 12345
+}
+undefined
+member
+{name: '박민재', Symbol(): 12345}
+member[id]
+12345
