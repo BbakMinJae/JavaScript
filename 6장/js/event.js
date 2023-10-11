@@ -50,7 +50,7 @@ button6.addEventListener("click", () => {
     const word = document.querySelector("#word").value; // 텍스트 상자의 내용
     const result = document.querySelector("#result");
 
-    let count = word.length;
+    let count = word.length;    //문자열 길이
 
-    result.innerText = `${count}`;
+    result.innerText = `${count}`;  //결과 표시
 });
