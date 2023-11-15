@@ -179,9 +179,3 @@ console.log("tel_num === phone : ", tel_num === phone);
 // Symbol.keyFor() 메서드
 // 전역 심벌의 키를 찾는다.
 console.log("Symbol.keyFor(phone) : ", Symbol.keyFor(phone));
-
-
-
-
-
-
